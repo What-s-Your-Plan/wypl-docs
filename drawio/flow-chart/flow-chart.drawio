@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3457" dy="1868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="6068" dy="3322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-53" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;glass=0;strokeColor=none;strokeWidth=2;align=center;verticalAlign=middle;arcSize=14;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=24;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=none;resizable=1;fillColor=#000000;gradientColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
         <mxCell id="sKCnBn6jHw3cgLW9KgB4-4" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40.004999999999995" y="40" width="320" height="80" as="geometry" />
         </mxCell>
@@ -16,10 +19,94 @@
         <mxCell id="sKCnBn6jHw3cgLW9KgB4-10" value="Openweather API&lt;br&gt;Request Flow Chart" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=36;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;align=left;spacingLeft=10;fontStyle=1;fontColor=#ca9353;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40.01" y="140" width="359.99" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sKCnBn6jHw3cgLW9KgB4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.733;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.733;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=22;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontStyle=1" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1030" y="550.0000000000002" as="sourcePoint" />
-            <mxPoint x="1019.8000000000002" y="530.0000000000002" as="targetPoint" />
+            <mxPoint x="870" y="550.0000000000002" as="sourcePoint" />
+            <mxPoint x="859.8000000000002" y="530.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=24;fontColor=#FFFFFF;fontStyle=1;strokeColor=#FFFFFF;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sKCnBn6jHw3cgLW9KgB4-13" target="sKCnBn6jHw3cgLW9KgB4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-13" value="날씨 정보 요청" style="strokeWidth=3;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#2E4B5A;strokeColor=none;shadow=1;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontColor=#000000;fontSize=22;fontStyle=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="320" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-44" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=24;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sKCnBn6jHw3cgLW9KgB4-16" target="sKCnBn6jHw3cgLW9KgB4-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-16" value="회원 정보 조회" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=1;strokeColor=none;align=center;verticalAlign=middle;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=22;fontColor=#000000;fontStyle=1;fillColor=#6076f9;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="519.99" y="320" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=24;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sKCnBn6jHw3cgLW9KgB4-18" target="sKCnBn6jHw3cgLW9KgB4-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-47" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;shadow=1;glass=0;strokeColor=#FFFFFF;strokeWidth=2;arcSize=14;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=24;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=none;fillColor=#000000;gradientColor=none;" vertex="1" connectable="0" parent="sKCnBn6jHw3cgLW9KgB4-31">
+          <mxGeometry x="-0.3417" y="1" relative="1" as="geometry">
+            <mxPoint x="29" y="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-32" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=24;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sKCnBn6jHw3cgLW9KgB4-18" target="sKCnBn6jHw3cgLW9KgB4-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-45" value="&lt;span style=&quot;&quot;&gt;YES&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;shadow=1;glass=0;strokeColor=#FFFFFF;strokeWidth=2;arcSize=14;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=24;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=none;fillColor=#000000;" vertex="1" connectable="0" parent="sKCnBn6jHw3cgLW9KgB4-32">
+          <mxGeometry x="-0.4214" y="-2" relative="1" as="geometry">
+            <mxPoint x="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-18" value="데이터가 존재하는가?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;shadow=1;glass=0;strokeColor=none;align=center;verticalAlign=middle;arcSize=14;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=22;fontColor=#000000;fontStyle=1;fillColor=#FDB822;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="600" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-39" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=24;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sKCnBn6jHw3cgLW9KgB4-19" target="sKCnBn6jHw3cgLW9KgB4-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-48" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;shadow=1;glass=0;strokeColor=#FFFFFF;strokeWidth=2;arcSize=14;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=24;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=none;fillColor=#000000;gradientColor=none;" vertex="1" connectable="0" parent="sKCnBn6jHw3cgLW9KgB4-39">
+          <mxGeometry x="0.0812" relative="1" as="geometry">
+            <mxPoint x="30" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-19" value="Status Code 2xx인가?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;shadow=1;glass=0;strokeColor=none;align=center;verticalAlign=middle;arcSize=14;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=22;fontColor=#000000;fontStyle=1;fillColor=#FDB822;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="880" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-20" value="Openweather API 요청" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=1;strokeColor=none;align=center;verticalAlign=middle;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=22;fontColor=#000000;fontStyle=1;fillColor=#6076f9;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="880" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-36" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=24;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sKCnBn6jHw3cgLW9KgB4-21" target="sKCnBn6jHw3cgLW9KgB4-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-21" value="Redis에 날씨&lt;br style=&quot;font-size: 22px;&quot;&gt;데이터 저장" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=1;strokeColor=none;align=center;verticalAlign=middle;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=22;fontColor=#000000;fontStyle=1;fillColor=#6076f9;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="600" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-22" value="&lt;div style=&quot;font-size: 22px;&quot;&gt;External Server&amp;nbsp;&lt;span style=&quot;background-color: initial; font-size: 22px;&quot;&gt;Exception&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;shadow=1;glass=0;strokeColor=none;align=center;verticalAlign=middle;arcSize=14;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=22;fontColor=#000000;fontStyle=1;fillColor=#2E4B5A;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1480" y="880" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-23" value="회원 설정에 맞는&lt;div style=&quot;font-size: 22px;&quot;&gt;날씨 정보 변환&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=1;strokeColor=none;align=center;verticalAlign=middle;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=22;fontColor=#000000;fontStyle=1;fillColor=#6076f9;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="320" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-24" value="Redis에서&lt;br style=&quot;font-size: 22px;&quot;&gt;날씨 데이터 조회" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=1;strokeColor=none;align=center;verticalAlign=middle;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=22;fontColor=#000000;fontStyle=1;fillColor=#6076f9;glass=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="600" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-26" value="&lt;div style=&quot;font-size: 22px;&quot;&gt;날씨 정보 반환&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;shadow=1;glass=0;strokeColor=none;align=center;verticalAlign=middle;arcSize=14;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=22;fontColor=#000000;fontStyle=1;fillColor=#2E4B5A;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1480" y="320" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-30" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=24;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sKCnBn6jHw3cgLW9KgB4-24" target="sKCnBn6jHw3cgLW9KgB4-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=24;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sKCnBn6jHw3cgLW9KgB4-23" target="sKCnBn6jHw3cgLW9KgB4-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-38" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=24;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sKCnBn6jHw3cgLW9KgB4-20" target="sKCnBn6jHw3cgLW9KgB4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-40" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=24;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sKCnBn6jHw3cgLW9KgB4-19" target="sKCnBn6jHw3cgLW9KgB4-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sKCnBn6jHw3cgLW9KgB4-49" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;shadow=1;glass=0;strokeColor=#FFFFFF;strokeWidth=2;arcSize=14;fontFamily=Pretendard;fontSource=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2FProject-Noonnu%2Fnoonfonts_2107%401.1%2FPretendard-Regular.woff;fontSize=24;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=none;fillColor=#000000;gradientColor=none;" vertex="1" connectable="0" parent="sKCnBn6jHw3cgLW9KgB4-40">
+          <mxGeometry x="-0.1687" y="4" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
